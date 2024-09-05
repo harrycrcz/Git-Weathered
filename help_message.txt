@@ -1,0 +1,21 @@
+def configurar_parser():
+    help_message = """
+    Uso: clima_cli.py --ciudad [CIUDAD] --formato [FORMATO]
+
+    Esta CLI te permite obtener los datos del clima para cualquier ciudad del mundo.
+
+    Opciones:
+      --ciudad     Especifica la ciudad para la cual quieres obtener los datos del clima. Ejemplo: --ciudad Madrid
+      
+      --formato    Especifica el formato en el cual deseas recibir los datos. Las opciones disponibles son:
+                     - JSON  : Para recibir los datos en formato JSON.
+                     - CSV   : Para recibir los datos en formato CSV.
+                     - Texto : Para recibir los datos en un formato de texto simple.
+      
+      --help       Muestra este mensaje de ayuda y termina la ejecución.
+
+    Ejemplos de uso:
+      python clima_cli.py --ciudad Madrid --formato JSON
+      python clima_cli.py --ciudad "New York" --formato Texto
+      python clima_cli.py --ciudad Tokyo --formato CSV
+    """
