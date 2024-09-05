@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source .venv/bin/activate
+source .venv/Scripts/activate
 
 #Aca metemos las pruebas mas basicas
 echo "Probando con formato JSON..."
